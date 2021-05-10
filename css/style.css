@@ -1,5 +1,5 @@
-@media screen and (min-width:780px){
-    
+/* @media screen and (min-width:780px){
+
     ul{
         list-style: none;
     }
@@ -7,6 +7,23 @@
     ul li {
         display: inline-block;
         padding: 0 40px;
+        background-color: grey;
+        color: white;
+    }
+} */
+
+/* display: flex */
+@media screen and (min-width:780px){
+
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    ul li {
+        padding: 0 40px;
+        margin: 10px;
         background-color: grey;
         color: white;
     }
